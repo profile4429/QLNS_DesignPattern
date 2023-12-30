@@ -6,7 +6,7 @@ using System.Data;
 using System.Text;
 
 namespace CNPM.DataAccessTier
-{
+{  //kien
     class BaoCaoCongNoDAT 
     {
         
