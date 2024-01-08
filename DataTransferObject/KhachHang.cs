@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CNPM
 {
-    class KhachHang
+    public class KhachHang
     {
         public int MaKhachHang, SoTienNo;
         public string TenKhachHang, DienThoai, DiaChi, Email;
@@ -18,6 +18,15 @@ namespace CNPM
             DienThoai = "";
             DiaChi = "";
             Email = "";
+        }
+        public KhachHang(int MaKhachHang,string TenKhachHang, string DienThoai, string DiaChi, string Email, int SoTienNo ) {
+
+            this.MaKhachHang = MaKhachHang;
+            this.TenKhachHang = TenKhachHang;
+            this.DienThoai = DienThoai;
+            this.Email = Email;
+            this.DiaChi = DiaChi;
+            this.SoTienNo = SoTienNo;
         }
     }
 }

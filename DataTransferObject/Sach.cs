@@ -22,12 +22,12 @@ namespace CNPM
         }
         public Sach(int maSach, int donGia, int soLuongTon, string tenSach, string tacGia, string theLoai)
         {
-            MaSach = maSach;
-            DonGia = donGia;
-            SoLuongTon = soLuongTon;
-            TenSach = tenSach;
-            TacGia = tacGia;
-            TheLoai = theLoai;
+            this.MaSach = maSach;
+            this.DonGia = donGia;
+            this.SoLuongTon = soLuongTon;
+            this.TenSach = tenSach;
+            this.TacGia = tacGia;
+            this.TheLoai = theLoai;
         }
     }
 }

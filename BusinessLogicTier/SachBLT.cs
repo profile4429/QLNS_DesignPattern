@@ -90,11 +90,7 @@ namespace CNPM
             return false;
         }
 
-        // Thêm phương thức TạoSachBuilder
-        public SachBuilder TaoSachBuilder()
-        {
-            return new SachBuilder();
-        }
+      
     }
 
     public interface ISachBuilder
